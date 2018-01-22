@@ -1,3 +1,4 @@
+/* Configurações gerais da página*/
 *{
     margin:0;
     padding:0;
@@ -13,11 +14,62 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+/*Configurações reutilizaveis*/
 .row{
     max-width: 1140px;
     margin: 0 auto;
 }
 
+h1{
+    margin:0;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+/*Botões*/
+.btn:link,.btn:visited{
+    display: inline-block;
+    padding:10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+.btn-full:link, .btn-full:visited{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,.btn-ghost:visited{
+    border: 1px solid #e67e22;
+    color:#e67e22;
+
+}
+.btn:hover,.btn:active{
+    background-color:#cf6d17;
+}
+
+
+
+.btn-full:hover, .btn-full:active{
+    border: 1px solid #cf6d17
+}
+
+.btn-ghost:hover,.btn-ghost:hover{
+    border: 1px solid #cf6d17;
+    color:#fff;
+
+}
+
+/*Configurações do Header*/
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.699)), url(img/hero.jpg);
     background-size: cover;
@@ -31,18 +83,4 @@ header{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-}
-
-h1{
-    margin:0;
-    color:white;
-    font-size: 250%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-}
-
-.btn{
-    
 }
