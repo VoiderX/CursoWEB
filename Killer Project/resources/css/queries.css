@@ -1,0 +1,27 @@
+/*Big tablet to 1200px(width smaller than the pixel row */
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{padding: 0 2%;}
+}
+
+/*Ipad and other tablets*/
+@media only screen and (max-width:1023px){
+    body{font-size:18px;}
+    section{padding: 60px 0px;}
+    .long-copy{
+        width: 80%;
+        margin: 10%;
+    }
+}
+
+/*larger small phones*/
+@media only screen and (max-width:767px){
+
+}
+/*Small Phones*/
+@media only screen and (max-width:480px){
+
+}
