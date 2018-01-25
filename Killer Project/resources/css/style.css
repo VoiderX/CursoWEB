@@ -292,8 +292,12 @@ header{
     overflow: hidden;
 }
 .meal-photo img:hover{
-    transform: scale(1);
+    transform: scale(1.03);
     opacity: 1;
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
 }
 
 /*How it works*/
